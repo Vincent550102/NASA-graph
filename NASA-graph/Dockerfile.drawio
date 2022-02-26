@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T08:38:01.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="0U1VmRg2MxuWG9LmErSg" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T08:48:09.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="r_9bgaOnYrJq5IS46jzT" version="16.6.4" type="github">
   <diagram id="V479EQ7KAgkgUyLgjUdQ" name="Page-1">
-    <mxGraphModel dx="1303" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="745" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="20" y="160" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="4ZzyJBohuDkeGVYwBfIt-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Dockerfile&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="140" width="60" height="30" as="geometry" />
+          <mxGeometry x="40" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ZzyJBohuDkeGVYwBfIt-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -33,6 +33,54 @@
         </mxCell>
         <mxCell id="4ZzyJBohuDkeGVYwBfIt-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Image&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="76" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-43" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Container layer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="735" y="81" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="120" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#FF3333;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-53">
+          <mxGeometry width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-30" value="" style="swimlane;startSize=0;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-53">
+          <mxGeometry x="10.32" y="6.15" width="179.68" height="36.92" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-31" value="&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;CMD [&quot;python3&quot;, &quot;/app/hello.py&quot;]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-30">
+          <mxGeometry x="-6.791720569210867" y="12.307692307692308" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-32" value="" style="swimlane;startSize=0;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-53">
+          <mxGeometry x="10.32" y="43.08" width="179.68" height="36.92" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-33" value="&lt;span&gt;COPY hello.py /app/&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-32">
+          <mxGeometry x="30.970245795601556" y="12.307692307692308" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-34" value="" style="swimlane;startSize=0;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-53">
+          <mxGeometry x="10.32" y="80" width="179.68" height="36.92" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-35" value="&lt;div style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;RUN apt-get -qq update&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-34">
+          <mxGeometry x="20.3751617076326" y="12.307692307692308" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-36" value="" style="swimlane;startSize=0;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-53">
+          <mxGeometry x="10.32" y="116.92" width="179.68" height="36.92" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-37" value="&lt;span&gt;python:3.8&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="4ZzyJBohuDkeGVYwBfIt-36">
+          <mxGeometry x="57.32212160413972" y="12.307692307692308" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-54" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="220" as="sourcePoint" />
+            <mxPoint x="670" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-55" value="&lt;font style=&quot;font-size: 12px&quot;&gt;docker run&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="590" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ZzyJBohuDkeGVYwBfIt-56" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Container&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="46" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
